@@ -53,7 +53,7 @@ class _AppHomeState extends State<AppHome> {
     String apiKey = "YOUR_API_KEY_HERE"; //Enter your API Here
     String language = "en";
     String country = "us";
-    String category = "technology";
+    String category = "science";
     int pageSize = 25;
     String url1 =
         "https://newsapi.org/v2/sources?language=$language&apiKey=$apiKey";
