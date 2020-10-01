@@ -50,7 +50,7 @@ class _AppHomeState extends State<AppHome> {
   Widget build(BuildContext context) {
     String dropDownValue = "in";
 
-    String apiKey = "YOUR_API_KEY_HERE";
+    String apiKey = "YOUR_API_KEY_HERE"; //Enter your API Here
     String language = "en";
     String country = "us";
     String category = "technology";
