@@ -51,7 +51,7 @@ class _AppHomeState extends State<AppHome> {
     String dropDownValue = "in";
 
     String apiKey = "YOUR_API_KEY_HERE"; //Enter your API Here
-    String language = "en";
+    String language = "en";//Enter your Language here
     String country = "us";
     String category = "science";
     int pageSize = 25;
