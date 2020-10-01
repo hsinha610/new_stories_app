@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: AppHome(),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
     );
   }
 }
@@ -52,7 +52,7 @@ class _AppHomeState extends State<AppHome> {
 
     String apiKey = "YOUR_API_KEY_HERE";
     String language = "en";
-    String country = "in";
+    String country = "us";
     String category = "technology";
     int pageSize = 25;
     String url1 =
