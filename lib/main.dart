@@ -78,7 +78,7 @@ class _AppHomeState extends State<AppHome> {
       child: Scaffold(
         resizeToAvoidBottomInset: false,
         appBar: AppBar(
-          title: Text("Tech News"),
+          title: Text("Tech News App"),
           centerTitle: true,
         ),
         body: Center(
@@ -92,7 +92,7 @@ class _AppHomeState extends State<AppHome> {
                     itemBuilder: (context, index) {
                       return Container(
                         margin:
-                            EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+                            EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                         decoration: BoxDecoration(
                           color: Colors.deepOrangeAccent[100],
                           border: Border(
