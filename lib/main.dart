@@ -54,7 +54,7 @@ class _AppHomeState extends State<AppHome> {
     String language = "en";//Enter your Language here
     String country = "in";
     String category = "science";
-    int pageSize = 25;
+    int pageSize = 30;
     String url1 =
         "https://newsapi.org/v2/sources?language=$language&apiKey=$apiKey";
 
