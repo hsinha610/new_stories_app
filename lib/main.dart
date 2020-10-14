@@ -78,7 +78,7 @@ class _AppHomeState extends State<AppHome> {
       child: Scaffold(
         resizeToAvoidBottomInset: false,
         appBar: AppBar(
-          title: Text("Tech News"),
+          title: Text("Tech News App"),
           centerTitle: true,
         ),
         body: Center(
